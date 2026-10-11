@@ -15,7 +15,7 @@ This is an authentication module, developed with Node.js, Express, Typescript an
 
 1. clone the repository:
 ```bash
-    git clone [https://github.com/Matayus03/express-ts-auth-boilerplate.git](https://github.com/Matayus03/express-ts-auth-boilerplate.git)
+    git clone https://github.com/Matayus03/express-ts-auth-boilerplate.git
 ```
 
 2. install the dependencies:
