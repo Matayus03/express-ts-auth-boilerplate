@@ -18,19 +18,24 @@ This is an authentication module, developed with Node.js, Express, Typescript an
     git clone https://github.com/Matayus03/express-ts-auth-boilerplate.git
 ```
 
-2. install the dependencies:
+2. install dependencies:
 ```bash
-    npm install express cors dotenv pg bcrypt jsonwebtoken
+    npm install 
 ```
 
-3. install Typescript types:
-```bash
-    npm install -D typescript @types/node @types/express @types/cors @types/bcrypt @types/jsonwebtoken @types/pg
-```
+3. configure environment variables.
+    An .env.example file is provided as a template for configuring the environment variables
+    required by the application.
 
-4. configure environment variables.
-    create or modified the .env with your environment variables.
+    Copy the example file to create your own .env file:
 
-5. configure Database.
-    you can execute the schema.sql file or use your own Database.
+    cp .env.example .env
+
+    Then update the values in .env according to your local environment, including
+    your PostgreSQL database credentials and JWT secret.    
+
+4. configure the Database.
+    Make sure PostgreSQL is running and create the database you want to use.
+        Execute the schema.sql file to create the required tables and database strcture.
+        Alternatively, you can use your own database schema, provided it is compatible with the application
 
